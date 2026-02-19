@@ -27,32 +27,6 @@ files/ → Upload via SCP → GAIO inputs/
 
 ---
 
-## Estrutura do Projeto
-
-gaio-scp-uploader/
-│
-├── src/
-│ └── upload_to_gaio_inputs.py
-│
-├── config/
-│ └── config.py
-│
-├── files/ # Arquivos aguardando envio
-│ └── csv/
-│ └── pdf/
-│ └── txt/
-│
-├── sent/ # Arquivos enviados com sucesso
-│
-├── logs/ # Logs de execução (JSONL)
-│
-├── .env # Variáveis sensíveis (NÃO versionar)
-├── requirements.txt
-├── .gitignore
-└── README.md
-
----
-
 ## Requisitos
 
 - Linux ou WSL (recomendado)
@@ -123,3 +97,4 @@ Cada linha contém:
 - Resumo da execução
 
 Isso permite auditoria e rastreabilidade.
+
